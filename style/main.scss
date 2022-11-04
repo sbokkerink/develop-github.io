@@ -1,0 +1,252 @@
+$primary: rgb(255, 255, 255);
+$secondary: #e3e3e4;
+
+h1{
+ font-size: 10rem;
+}
+
+h2{
+ font-size: 7.5rem;
+}
+
+h3{
+ font-size: 5rem;
+}
+
+h4{
+ font-size: 2.5rem;
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+ background-color: $primary;
+ font-size: 62.5%;
+}
+
+body {
+ height: 700vh;
+ scroll-behavior: smooth;
+}
+
+.navbar{
+ position: fixed;
+ z-index: 1;
+ font-size: 2rem;
+ height: 7rem;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ justify-items: center;
+ align-items: center;
+ flex-wrap: wrap;
+ background-color: $primary;
+}
+
+.logo-navbar img{
+ margin-top: 1.5rem;
+ height: 5rem;
+ width: 5rem;
+}
+
+.logo-header{
+ height: 15rem;
+ width: 15rem;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.progress {
+ position: fixed;
+ margin-top: 7rem;
+ z-index: 1;
+ width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+ width: 100%;
+ height: 10px;
+ background: $primary;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+ height: 10px;
+ background: $secondary;
+ width: 0%;
+}
+
+.header{
+ display: flex;
+ justify-items: center;
+ align-items: center;
+ position: relative;
+ overflow: hidden;
+ flex-wrap: wrap;
+}
+
+.vid-header{
+ display: flex;
+ justify-content: flex-end;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.info-header{
+ position: absolute;
+ height: 100rem;
+ width: 50%;
+ color: $primary;
+ background: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.vid-header video {
+ width: 100%;
+}
+
+.development{
+ height: 100rem;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.left-development{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ flex-wrap: wrap;
+ width: 50%;
+}
+
+.right-development{
+ height: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ width: 40%;
+}
+
+.right-development-div1{
+ height: 50%;
+ width: 40%;
+ background-color: $secondary;
+ margin: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.right-development-div2{
+ height: 50%;
+ width: 40%;
+ background-color: #8accc6;
+ margin: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.right-development-div3{
+ height: 50%;
+ width: 40%;
+ background-color: #fbd636;
+ margin: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.right-development-div4{
+ height: 50%;
+ width: 40%;
+ background-color: $secondary;
+ margin: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.right-development img{
+ height: 20rem;
+ width: 20rem;
+}
+
+.left-development img{
+ height: 70rem;
+ width: auto;
+ display: flex;
+ justify-items: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.apps{
+ height: 100rem;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.apps-php{
+ margin-top: 3rem;
+ padding-left: 10rem;
+ padding-right: 10rem;
+ padding-bottom: 5rem;
+ width: 40%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ border: #ab45f0 solid 1rem;
+ border-radius: 3rem;
+ border-bottom-left-radius: 10rem;
+ border-top-right-radius: 10rem;
+ background-color: $secondary;
+}
+
+.apps-vsc{
+ margin-top: 10rem;
+ padding-left: 10rem;
+ padding-right: 10rem;
+ padding-bottom: 5rem;
+ width: 40%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ border: #0079cb solid 1rem;
+ border-radius: 3rem;
+ border-bottom-left-radius: 10rem;
+ border-top-right-radius: 10rem;
+ background-color: $secondary;
+}
+
+.apps img{
+margin-top: 5rem;
+ margin-bottom: 10rem;
+ width: 50%;
+ height: auto;
+}
+
+
+
+
+
