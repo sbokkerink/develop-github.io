@@ -204,7 +204,7 @@ body {
 }
 
 .apps-php {
-  margin-top: 3rem;
+  margin-top: 10rem;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 5rem;
@@ -213,7 +213,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: #ab45f0 solid 1rem;
+  border: #9f1aac solid 1rem;
   border-radius: 3rem;
   border-bottom-left-radius: 10rem;
   border-top-right-radius: 10rem;
@@ -230,7 +230,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: #0079cb solid 1rem;
+  border: #6d63c2 solid 1rem;
   border-radius: 3rem;
   border-bottom-left-radius: 10rem;
   border-top-right-radius: 10rem;
@@ -239,8 +239,8 @@ body {
 
 .apps img {
   margin-top: 5rem;
-  margin-bottom: 10rem;
-  width: 50%;
+  margin-bottom: 5rem;
+  width: 25%;
   height: auto;
 }
 
