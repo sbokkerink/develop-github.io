@@ -47,6 +47,7 @@ body {
  align-items: center;
  flex-wrap: wrap;
  background-color: $primary;
+ z-index: 100;
 }
 
 .logo-navbar img{
@@ -78,8 +79,9 @@ body {
 /* The progress bar (scroll indicator) */
 .progress-bar {
  height: 10px;
- background: $secondary;
+ background: #9f9f9f;
  width: 0%;
+ z-index: 100;
 }
 
 .header{
@@ -246,25 +248,35 @@ body {
  height: auto;
 }
 
-
-
+.fotos{
+ height: 80rem;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin-top: 10rem;
+}
 
 .carousel {
- height: 100vh;
- width: 100%;
+ height: 70rem;
+ width: 70%;
  position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ border: $secondary solid 2rem;
 }
 .carousel > ul {
- margin: 0;
- padding: 0;
  list-style: none;
 }
 .slide {
  position: absolute;
  inset: 0;
  opacity: 0;
- transition: 200ms opacity ease-in-out;
- transition-delay: 200ms;
+ transition: 300ms opacity ease-in-out;
+ transition-delay: 300ms;
 }
 .slide > img {
  display: block;
@@ -276,7 +288,7 @@ body {
 .slide[data-active] {
  opacity: 1;
  z-index: 1;
- transition-delay: 0ms;
+ transition-delay: 100ms;
 }
 .carousel-button {
  position: absolute;
@@ -294,20 +306,53 @@ body {
 }
 .carousel-button:hover,
 .carousel-button:focus {
- color: white;
- background-color: rgba(0, 0, 0, 0.2);
+ color: $primary;
+ background-color: rgba(0, 0, 0, 0.5);
 }
 .carousel-button:focus {
  outline: 1px solid black;
 }
-.carousel-button.prev {
- left: 1rem;
+.carousel-button .prev {
+ left: 2rem;
 }
-.carousel-button.next {
- right: 1rem;
+.carousel-button .next {
+ right: 2rem;
 }
 
+.aboutme{
+ height: 100rem;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ border: red solid 2rem;
+}
 
+.aboutme-left{
+height: 100%;
+ width: 70%;
+ border: green solid 2rem;
 
+}
+
+.aboutme-right{
+ height: 100%;
+ width: 30%;
+ border: blue solid 2rem;
+ flex-wrap: wrap;
+}
+
+.aboutme-left h3{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.aboutme-right img{
+ height: auto;
+ width: 100%;
+ filter: blur(1rem)
+}
 
 
