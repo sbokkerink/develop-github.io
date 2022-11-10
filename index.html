@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/main.css">
-<!--    <script src="main.js" defer></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js" defer></script>
     <link rel="icon" href="/icons/growth.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -139,33 +138,4 @@
 </main>
 </body>
 </html>
-<script type="jquery.js">
 
-        //Hiermee maak je een event listener op elk element met de class 'carousel-btn'.
-        //Als er op het element geklikt wordt zal deze code uitgevoerd worden.
-        $( ".carousel-btn" ).click(function()
-        {
-        //Krijg de value van het data attribuut 'carousel-way'
-        //Omdat dit een event is wat van toepassing kan zijn op meerdere elementen kunnen we gebruik maken van $(this).
-        //$(this) is dan het element waarop geklikt is, deze kan dus altijd anders zijn, maar je hebt dan wel altijd de goede.
-        var way = $(this).data("carousel-way");
-        alert(way);
-
-        //Check of het een plus of min is en doe een actie
-        if(way === "+")
-        {
-        alert('volgende slider.')
-        }
-        else
-        {
-        alert('Vorige slider.')
-        }
-
-        });
-
-        </script>
-        De HTML buttons met data attribuut:
-
-
-        <a class="btn btn-primary btn-lg carousel-btn" data-carousel-way="+">Volgende</a>
-        <a class="btn btn-primary btn-lg carousel-btn" data-carousel-way="-">Terug</a>
