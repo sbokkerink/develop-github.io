@@ -312,11 +312,11 @@ body {
 .carousel-button:focus {
  outline: 1px solid black;
 }
-.carousel-button .prev{
+.carousel-button.prev{
  left: 2rem;
 }
 
-.carousel-button .next{
+.carousel-button.next{
  right: 2rem;
 }
 
