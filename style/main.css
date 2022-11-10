@@ -319,7 +319,7 @@ body {
 }
 
 .carousel-button .prev {
-  margin-left: 2rem;
+  left: 2rem;
 }
 
 .carousel-button .next {
