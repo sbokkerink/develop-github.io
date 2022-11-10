@@ -312,34 +312,37 @@ body {
 .carousel-button:focus {
  outline: 1px solid black;
 }
-.carousel-button .prev {
- left: 2rem;
+.carousel-button .prev{
+ margin-left: 2rem;
 }
-.carousel-button .next {
+.carousel-button .next{
  right: 2rem;
 }
 
 .aboutme{
- height: 100rem;
+ position: absolute;
+ height: auto;
  width: 100%;
  display: flex;
  justify-content: center;
  align-items: center;
  flex-wrap: wrap;
- border: red solid 2rem;
+ border: $secondary 2rem solid;
 }
 
 .aboutme-left{
 height: 100%;
  width: 70%;
- border: green solid 2rem;
+}
 
+.aboutme-left h2{
+ display: flex;
+ justify-content: center;
 }
 
 .aboutme-right{
  height: 100%;
  width: 30%;
- border: blue solid 2rem;
  flex-wrap: wrap;
 }
 
@@ -352,7 +355,14 @@ height: 100%;
 .aboutme-right img{
  height: auto;
  width: 100%;
- filter: blur(1rem)
+ filter: blur(0.5rem)
+}
+
+.abimg{
+ position: absolute;
+ z-index: 5;
+ margin-left: 75rem;
+ border-radius: 50%;
 }
 
 
